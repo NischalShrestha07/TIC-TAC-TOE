@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.hero_section {
+    background: url('developer.png');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.text_container {
+    color: white;
+    max-width: 900px;
+    padding-top: 64px;
+    padding-left: 60px;
+    margin: 0 auto;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.text_container span {
+    color: greenyellow;
+
+}
+
+.text_container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: red;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.large-text {
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.quote {
+    width: 100vw;
+    background: black;
+    height: 150px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.quote p {
+    padding: 12px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.quote span {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.work {
+    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 12px;
+
+}
+
+.card {
+    text-align: center;
+    padding: 15px;
+    margin: 18px;
+    border: 3px solid black;
+    border-radius: 12px;
+    background: rgb(171, 183, 171);
+    box-shadow: 3px 5px 5px red;
+    transition: 0.2s ease-in-out;
+}
+
+.card img-container {
+    background-position: center;
+    width: 50px;
+}
+
+.card card-container {
+    padding: 10px;
+    margin: 12px 15px;
+
+}
+
+.card-container p {
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.card:hover {
+    /* zooms the screen when hover */
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+
+.bottom_section {
+    display: flex;
+}
+
+.contact {
+    background: #252424;
+    font-family: 'Source Code Pro', monospace;
+    color: aliceblue;
+}
+
+.about {
+    background: #252424;
+    font-size: 400;
+    /* font-weight: bold; */
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+.contact,
+.about {
+    border: 5px solid rgb(244, 82, 8);
+    margin: 5px;
+    /* height: 100px; */
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.contact h2 {
+    text-align: center;
+    color: rgb(7, 231, 89);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about h2 {
+    text-align: center;
+    color: rgb(7, 231, 89);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.btn {
+    /* width: 12px; */
+    background: greenyellow;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: bold;
+    margin: 12px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: 3px 5px 5px black;
+}
+
+.btn:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1.11);
+}
+
+.projects {
+    padding: 20px;
+    font-size: 30px;
+    margin: 15px;
+    border-radius: 20px;
+    background: rgb(231, 10, 69);
+    color: rgb(254, 251, 251);
+    cursor: pointer;
+    box-shadow: 3px 5px 5px black;
+    border: 3px solid white;
+    font-weight: bold;
+}
+
+.projects:hover {
+    background: green;
+    color: white;
+    border: 3px solid white;
+    transform: scale(1.11);
+
+}
+
+.manage {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: rgb(236, 228, 228);
+}
