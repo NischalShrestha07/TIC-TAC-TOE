@@ -59,10 +59,16 @@ nav {
 }
 
 .tag {
-    background: greenyellow;
+    background: rgb(29, 245, 5);
     padding: 5px 10px;
     color: white;
-    align-items: center;
+    /* align-items: center; */
+    align-self: flex-start;
 
 
+
+}
+
+.hero_content {
+    font-size: 72px;
 }
