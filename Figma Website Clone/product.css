@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserret', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'montserret', sans-serif;
+    gap: 12px;
+}
+
+.navbar img {
+    width: 5vw;
+
+}
+
+.navbar span a {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    background: blue;
+    color: white;
+    transform: scale(3.6);
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar li a:hover {
+    border-bottom: 5px solid red;
+    transition: all ease-out;
+
+}
+
+.navbar span a:hover {
+    transition: all ease-in;
+    box-shadow: 1px 4px 4px black;
+    /* transform: scale(3.6); */
+
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+
+    /* flex-direction: column; */
+}
+
+.container1 {
+    min-height: 60vh;
+    padding: 90px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(163, 170, 163); */
+}
+
+.btn1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background: rgb(9, 96, 118);
+    padding: 10px;
+    margin-top: 45px;
+    border-radius: 10px;
+    background: rgb(3, 5, 3);
+}
+
+.btn1:hover {
+    background: rgb(228, 82, 24);
+    /* color: rgb(46, 150, 46); */
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+    color: rgb(46, 150, 46);
+    padding: 8px;
+    margin-top: 45px;
+    border-radius: 10px;
+}
+
+.btn2:hover {
+    background: black;
+    color: white;
+
+}
+
+.container2 {
+    justify-content: center;
+    align-items: center;
+    background: green;
+    display: flex;
+}
+
+.container1 img {
+    height: 45vh;
+
+}

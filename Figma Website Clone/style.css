@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserret', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'montserret', sans-serif;
+    gap: 12px;
+}
+
+.navbar img {
+    width: 5vw;
+
+}
+
+.navbar span a {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    background: blue;
+    color: white;
+    transform: scale(3.6);
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar li a:hover {
+    border-bottom: 5px solid red;
+    transition: all ease-out;
+
+}
+
+.navbar span a:hover {
+    transition: all ease-in;
+    box-shadow: 1px 4px 4px black;
+    /* transform: scale(3.6); */
+
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+
+    /* flex-direction: column; */
+}
+
+.row {
+    margin-bottom: -22px;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 274px;
+    list-style: none;
+    /* background: grey; */
+    font-weight: bold;
+    padding: 20px 0;
+    font-family: 'montserret', sans-serif;
+}
+
+.row li:hover {
+    border-bottom: 5px solid rgb(5, 19, 210);
+    transition: all ease-in-out;
+
+}
+
+.row span {
+    border: 2px solid black;
+    padding: 15px;
+    font-family: 'montserret', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    background: blue;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+
+.row span:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+.container1 {
+    min-height: 60vh;
+    padding: 90px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(163, 170, 163); */
+}
+
+.detail h6 {
+    margin: 15px;
+}
+
+.detail h1 {
+    margin: 15px;
+}
+
+.detail p {
+    margin: 15px;
+}
+
+.mainSlot {
+    min-width: 100vw;
+    margin: 1vw;
+    padding: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* background: grey; */
+}
+
+.firstSlot {
+    display: flex;
+    gap: 25px;
+    padding: 3vw;
+    margin: 10px 21px;
+}
+
+.secondSlot {
+    display: flex;
+    gap: 25px;
+    padding: 3vw;
+    margin: 10px 21px;
+}
+
+.thirdSlot {
+    display: flex;
+    gap: 25px;
+    padding: 3vw;
+    margin: 10px 21px;
+}
+
+.fourthSlot {
+    display: flex;
+    gap: 25px;
+    padding: 3vw;
+    margin: 10px 21px;
+}
+
+.mainSlot h1 {
+    margin: 20px 0;
+}
+
+.mainSlot p {
+    margin: 10px;
+}
+
+.mainSlot button {
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: rgb(213, 207, 207);
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    font-family: 'montserret', sans-serif;
+}
+
+.mainSlot button:hover {
+    background: greenyellow;
+    color: black;
+
+    box-shadow: 1px 2px 2px black;
+
+}
+
+.section1 {
+    margin-top: 0;
+    background: firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 img {
+    height: 70vh;
+}
+
+.para {
+    margin: 150px;
+    font-size: 35px;
+}
+
+.para p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 15px;
+    background: #000;
+    color: white;
+}
+
+.btn:hover {
+    color: black;
+    background: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1.1);
+    transition: all ease-in-out;
+}
+
+.ender {
+    padding: 30px;
+    margin: 30px 60px;
+    display: flex;
+    background: rgb(241, 241, 195);
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'montserret', sans-serif;
+}
+
+.icons {
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+    font-size: 60px;
+}
+
+.para2 p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.para2 h1 {
+
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+}
+
+.explore h1 {
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+
+}
+
+.resources h1 {
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+
+}
+
+.useCase h1 {
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+
+}
+
+.compare h1 {
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+
+}
+
+.icons a {
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+}
+
+.explore li {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.resources li {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.useCase li {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.compare li {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+footer {
+    margin-top: 100px;
+    background: black;
+    color: white;
+    text-align: center;
+    height: -7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+footer span {
+    margin-left: 10vw;
+}
